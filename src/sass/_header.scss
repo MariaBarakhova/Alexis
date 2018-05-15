@@ -1,0 +1,33 @@
+    .header{
+        background: #ffffff;
+        padding: 25px 15px;
+        
+        .wrapper{
+                max-width: 1170px;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            .logo{
+            width: 97px;
+            height: 27px;
+             }
+            .nav{
+                display: flex;
+                flex-wrap: wrap;
+                    a{
+                        margin-right: 25px;
+                        color: #616161;
+                        font-family: 'Poppins:500', sans-serif;
+                        font-size: 14px;
+                        padding: 8px 10px;
+                        text-decoration: none;
+                    }
+                }
+        }
+        
+        
+       
+    }
+    
+        
