@@ -7,7 +7,7 @@ const livereload = require('gulp-livereload');
 //For Css
 const rename = require('gulp-rename');
 const gulpminifycss = require('gulp-minify-css');
-const plumber = require('gulp-plumber');
+const plumber = require('gulp-plumber'); 
 const remember = require('gulp-remember');
 
 //For Js
@@ -55,7 +55,7 @@ gulp.task('css', function() {
 });
 
 gulp.task('sass', function() {
-  return gulp.src('./src/sass/**/*.scss')
+   gulp.src('./src/sass//*.scss')
   .pipe(plumber())
   .pipe(autoprefixer({
     browsers: ['last 2 version'],
@@ -69,7 +69,7 @@ gulp.task('sass', function() {
 
 /* Task for folder Images */
 gulp.task('image', function () {
-  gulp.src('./src/img/**/*.*')
+  return gulp.src('./src/img/**/*.*')
       .pipe(newer('./build/img/'))
       .pipe(imagemin({
           progressive: true,

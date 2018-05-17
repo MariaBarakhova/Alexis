@@ -103,7 +103,8 @@ body{
         margin-top: 220px;
         background-color: #ffffff;
         border-bottom: 3px solid;
-        border-image: linear-gradient( to right, #fc5f45 25%, #38c695 50%, #b27cf5 75%, #feb960 100%);
+        border-image: linear-gradient( to right, #fc5f45 25%, #38c695 25%,#38c695 50%, 
+        #b27cf5 50%, #b27cf5 75%,#feb960 75%, #feb960 100%);
         border-image-slice: 1;
         box-shadow: 0px -7px 5px #fafafa;
 
