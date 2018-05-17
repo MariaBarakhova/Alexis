@@ -42,7 +42,7 @@ gulp.task('webserver', function () {
 gulp.task('html', function() {
   return gulp.src('./src/index.html')
   //.pipe(rigger())
-  .pipe(gulp.dest('./src'))
+  .pipe(gulp.dest('./build'))
   .pipe(reload({stream: true}));
 });
 
