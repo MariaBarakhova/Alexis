@@ -1,0 +1,172 @@
+.workExperience{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 80px 15px;
+    &__head{
+        margin-bottom: 80px;
+            &__title{
+            font-size: 35px;
+            color: #3e3e3e;
+            font-family: 'Poppins';
+            text-align: left;
+            margin-bottom: 19px;
+            }
+            .horLine{
+                border:none;
+                height: 2px;
+                width: 75px; 
+                background-color: #fb6470;
+            
+            }
+        }
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .vertLine{
+        border-left: 2px solid  #353541;
+        height: 545px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 2px;
+    }
+    
+    .boxes{
+        margin: 10px;
+        &.Left{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+        &.Right{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        &__title{
+            color: #ffffff;
+            font-size: 22px;
+            font-family: 'Poppins';
+        }
+        &__date{
+            color: #ac515d;
+            font-size: 22px;
+            font-family: 'Poppins';
+        }
+        &__text{
+            color: #ffffff; 
+            font-size: 13px;
+            font-family: 'Poppins';
+        }
+
+        &__left{
+            padding: 20px;
+            margin: 10px;
+            background-color: #353541;
+            position: relative;
+            width: 100%;
+            max-width: 475px;
+            height: 150px;
+            border-radius: 6px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            line-height: 25px;
+            &.one{
+                top: -20px;
+            }
+            &.two{
+                top: 72px;
+            }
+    
+        &:after {
+            content: ''; 
+            position: absolute;
+            left: 100%;
+            top: 115px;
+            border-top: 25px solid transparent;
+            border-left: 31px solid #353541;
+            border-bottom: 6px solid transparent;
+        }
+        }
+
+        &__right{
+            padding: 20px;
+            margin: 10px;
+            background-color: #353541;
+            position: relative;
+            width: 100%;
+            max-width: 475px;
+            height: 150px;
+            border-radius: 6px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            line-height: 25px;
+            &.one{
+                top: -70px;
+            }
+            &.two{
+                top: 30px;
+            }
+    
+    
+       
+        &:after {
+            content: ''; 
+            position: absolute;
+            right: 100%;
+            top: 12px;
+            border-top: 6px solid transparent;
+            border-right: 31px solid #353541;
+            border-bottom: 25px solid transparent;
+        }
+        }
+        
+    }
+    .circles{
+        
+        .circle{
+            width:40px;
+            height:40px;
+            border-radius:50%;
+            background: #ffffff;
+            border: 1px solid black;
+            &.one{
+                position: relative;
+                right: 20px;
+                top: 0px;
+            }
+            &.two{
+                position: relative;
+                right: 20px;
+                top: 160px;
+            }
+            &.three{
+                position: relative;
+                right: 20px;
+                top: 230px;
+            }
+            &.four{
+                position: relative;
+                right: 20px;
+                top: 377px;
+            }
+           
+        }
+            .min_circle{       
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background: #fb6470;
+                border: 1px solid black;
+                margin: 10px;
+               
+            }
+        
+    }
+}
